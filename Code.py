@@ -1,4 +1,6 @@
-from collections import defaultdict
+from array import *
+from collections import *
+
 print("damn it works")
 print("damn it works tooooooooooo")
 name = 'srinivas'
@@ -110,4 +112,55 @@ UserString()- wrapper around Sring objects for easier String sub-classing
 d = defaultdict(int)
 d[1] = "ram"
 d[2]="laxman"
-print(d[3])
+print(d)
+
+#array
+
+a = array('i', [234, 56, 4, 4, 56])
+a[0] =2
+a.append(25)
+a.extend([3, 4, 90])
+a.insert(0,345)
+len(a)
+print(a)
+a.pop()
+a.remove(4)
+print(a[0:5]) # slicing from index 0 to 5
+b = array('i', [1,2,3,4,5,6])
+d =array('i') # create empty array
+d= a+b
+
+#looping
+f = array('i', [1,2,3,4,5,6])
+temp =0
+while temp > f[3]:
+    print(f[temp])
+    temp=temp+1
+for x in f:
+    print(x)
+#hashmap
+
+dic = dict(aye='001', era='002')
+print(dic)
+print(type(dic))
+
+#nested dictionary
+
+emp_id = dict(ram= dict(id='1', age='4', salary='4000'), jay= dict(id='1', age='4', salary='4000'))
+print(emp_id.values())
+print(emp_id.keys())
+
+print(emp_id.get('ram'))
+# accessing
+for x in emp_id.values():
+    print(x)
+for x,y in emp_id.items():
+    print(x,y)
+#updating
+emp_id['ram']= dict(id='3', age='14', salary='8000')
+emp_id['chris'] =dict(id='1', age='4', salary='500')
+print(emp_id)
+
+#delete
+del emp_id['chris']
+print(emp_id)
