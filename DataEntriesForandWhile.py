@@ -1,5 +1,7 @@
+#example of a for loop inside a while loop
 
-travelling = input("Are you yes or no")
+
+travelling = input("Are you Travelling yes or no")
 while travelling =="yes":
     n = int (input("Enter number of persons:"))
     for n in range(1,n+1):
