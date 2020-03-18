@@ -3,7 +3,7 @@ import random
 n = 20
 guess_random = int(n * random.random())+1
 
-guess = 0
+guess =0
 
 while guess != guess_random:
     guess =int(input("new number:"))
