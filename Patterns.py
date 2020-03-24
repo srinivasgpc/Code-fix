@@ -1,4 +1,5 @@
 # pyramid
+print("pyramid")
 def pattern(n):
     k = 2 * n - 2
     for i in range(0, n):
@@ -13,7 +14,8 @@ def pattern(n):
 pattern(5)
 
 
-# inverse paramid
+# inverse paramide
+print("inverse paramid")
 def pattern(n):
     k = n - 2
     for i in range(n, -1, -1):
@@ -29,6 +31,7 @@ pattern(5)
 
 
 # right start pattern
+print("right start pattern")
 def pattern(n):
     for i in range(0, n):
         for j in range(0, i + 1):
@@ -44,7 +47,7 @@ pattern(5)
 
 
 # left start pattern
-
+print("left start pattern")
 def pattern(n):
     k = 2 * n - 2
     for i in range(0, n - 1):
@@ -68,7 +71,7 @@ pattern(5)
 
 
 # hour class pattern
-
+print("hour class pattern")
 def pattern(n):
     k = n - 2
     for i in range(n, -1, -1):
@@ -82,7 +85,7 @@ def pattern(n):
 
 pattern(5)
 
-
+print("Left half paramid")
 def pattern(n):
     k = 2 * n - 2
     for i in range(0, n + 1):
@@ -98,6 +101,7 @@ pattern(5)
 
 
 # half right pyramid:
+print("half right pyramid")
 def pattern(n):
     for i in range(0, n):
         for j in range(0, i + 1):
@@ -108,8 +112,8 @@ def pattern(n):
 pattern(5)
 
 
-# half right pyramid:
-
+# half right down pyramid:
+print("half right down pyramid")
 def pattern(n):
     k = 2 * n - 2
     for i in range(0, n):
@@ -124,8 +128,8 @@ def pattern(n):
 pattern(5)
 
 
-# downard half right pattern:
-
+# half left down pattern:
+print("Half left down pattern")
 def pattern(n):
     for i in range(n, -1, -1):
         for j in range(0, i):
@@ -137,7 +141,7 @@ pattern(5)
 
 
 # diamond star  pattern:
-
+print("Diamond star  pattern")
 def pattern(n):
     for i in range(5):
         for j in range(5):
@@ -152,7 +156,7 @@ pattern(5)
 """
 NUMBER PATTERNS
 """
-
+print("NUMBER PATTERNS")
 
 def pattern(n):
     x = 0
@@ -170,3 +174,25 @@ def pattern(n):
 
 
 pattern(5)
+
+
+# pascal traingle
+print("Pascal traingle")
+def pattern(n):
+    for i in range(0, n):
+        for j in range(0, i + 1):
+            print(function(i, j), " ", end="")
+        print()
+
+
+def function(n, k):
+    res = 1
+    if (k> n - k):
+        k = n - k
+    for i in range(0, k):
+        res = res * (n - i)
+        res = res // (i + 1)
+    return res
+
+
+pattern(7)
