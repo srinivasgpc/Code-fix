@@ -82,15 +82,15 @@ UserString()- wrapper around Sring objects for easier String sub-classing
 # a1 =ChainMap(a,b)
 # print(a1)
 
-#Counter
-# a =[1,2,2,2,2,2,3,4,5,6,6,6,6,]
-# c = Counter(a)
-# print(c)
-# print(list(c.elements()))
-#
-# sub ={2:1 , 5:1}
-# print(c.subtract(sub))
-# print(list(c.most_common()))
+Counter
+a =[1,2,2,2,2,2,3,4,5,6,6,6,6,]
+c = Counter(a)
+print(c)
+print(list(c.elements()))
+
+sub ={2:1 , 5:1}
+print(c.subtract(sub))
+print(list(c.most_common()))
 
 #OrderedDict
 #
