@@ -52,3 +52,8 @@ letters.remove("a")
 del letters[0:2]
 print(letters)
 
+Pnumbers = [3, 54, 2, 21]
+Pnumbers.sort(reverse=True)
+print(Pnumbers)
+print(sorted(numbers))
+print(sorted(numbers, reverse=True))
