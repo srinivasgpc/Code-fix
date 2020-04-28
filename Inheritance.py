@@ -96,3 +96,10 @@ p2 = Point(1,2)
 
 print(id(p1))
 print(id(p2))
+
+
+
+
+
+
+
