@@ -1,0 +1,1 @@
+print("ecommerce initialized")
