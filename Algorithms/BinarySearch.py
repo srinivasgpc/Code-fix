@@ -26,7 +26,7 @@ def binary_search_iterative(data, target):
         if target == data[mid]:
             return True
         elif target < data[mid]:
-            high = mid-1
+            high = mid+1
         else:
             low = mid -1
     return False
