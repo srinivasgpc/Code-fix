@@ -8,3 +8,6 @@ zipped = set(zip(Names,company))
 
 
 print(zipped)
+
+for (a,b) in zipped:
+    print(a,b)
