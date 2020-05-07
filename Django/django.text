@@ -1,0 +1,41 @@
+#django step by step
+
+Open cmd in power shell and give the location you need to install django
+
+like command >> cd %your location%
+
+
+step 1:virtual environment wrapper
+
+command >> pip install virtualenvwrapper-win
+
+
+step 2: Create an environment like creating directory
+        here test is the environment
+
+command >> mkvirtualenv test
+
+
+step 3: Install the django
+
+command >> pip install django
+
+step 4:TO check the django install in the perticular location
+
+command >>django-admin --version
+
+
+step 5: make a folder for work and get to that projects
+
+command >> mkdir projects
+command >> cd projects
+
+step 6: TO create a project and to start mysite
+
+command >> django-admin startproject mysite
+
+
+step 7: Run in Server
+
+command >> cd mysite
+command >> python manage.py runserver
