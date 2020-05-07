@@ -39,3 +39,6 @@ step 7: Run in Server
 
 command >> cd mysite
 command >> python manage.py runserver
+step 8: create app calc
+
+command >> python manage.py startapp calc
