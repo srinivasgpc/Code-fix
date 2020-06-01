@@ -42,3 +42,8 @@ command >> python manage.py runserver
 step 8: create app calc
 
 command >> python manage.py startapp calc
+
+Create/changes models and add migrate to that part
+
+command >> python manage.py makemigrations
+command >> python manage.py migrate
